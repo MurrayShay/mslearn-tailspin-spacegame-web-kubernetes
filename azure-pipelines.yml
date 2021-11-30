@@ -63,7 +63,7 @@ stages:
             inputs:
               action: createSecret
               secretName: $(imagePullSecret)
-              dockerRegistryEndpoint: 'etaksconn'
+              dockerRegistryEndpoint: 'etarcconn'
               kubernetesServiceConnection: 'etaksconn'
               namespace: 'default'
           - task: KubernetesManifest@0
